@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>LV4-5_IO进程 · GitBook</title>
+        <title>Ubuntu搭建教程视频版 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="LV6_网络编程.html" />
+    <link rel="next" href="Ubuntu搭建教程步骤截图.html" />
     
     
-    <link rel="prev" href="LV3_数据结构.html" />
+    <link rel="prev" href="VMware安装时可能遇到的问题.html" />
     
 
     </head>
@@ -141,7 +141,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="Ubuntu搭建教程视频版.html">
+        <li class="chapter active" data-level="1.5" data-path="Ubuntu搭建教程视频版.html">
             
                 <a href="Ubuntu搭建教程视频版.html">
             
@@ -336,7 +336,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.20" data-path="LV4-5_IO进程.html">
+        <li class="chapter " data-level="1.20" data-path="LV4-5_IO进程.html">
             
                 <a href="LV4-5_IO进程.html">
             
@@ -470,7 +470,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >LV4-5_IO进程</a>
+        <a href="." >Ubuntu搭建教程视频版</a>
     </h1>
 </div>
 
@@ -485,50 +485,15 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="1&#x3001;&#x5BF9;&#x4E8E;fork&#x51FD;&#x6570;&#x7684;&#x7406;&#x89E3;&#xFF1A;">1&#x3001;&#x5BF9;&#x4E8E;fork&#x51FD;&#x6570;&#x7684;&#x7406;&#x89E3;&#xFF1A;</h2>
-<p>  &#x4E00;&#x4E2A;&#x8FDB;&#x7A0B;&#x5305;&#x62EC;&#x4EE3;&#x7801;&#x3001;&#x6570;&#x636E;&#x548C;&#x5206;&#x914D;&#x7ED9;&#x8FDB;&#x7A0B;&#x7684;&#x8D44;&#x6E90;&#x3002;  fork&#xFF08;&#xFF09;&#x51FD;&#x6570;&#x901A;&#x8FC7;&#x7CFB;&#x7EDF;&#x8C03;&#x7528;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x4E0E;&#x539F;&#x6765;&#x8FDB;&#x7A0B;&#x51E0;&#x4E4E;&#x5B8C;&#x5168;&#x76F8;&#x540C;&#x7684;&#x8FDB;&#x7A0B;&#xFF0C;&#x5373;&#x4E24;&#x4E2A;&#x8FDB;&#x7A0B;&#x53EF;&#x4EE5;&#x505A;&#x5B8C;&#x5168;&#x76F8;&#x540C;&#x7684;&#x4E8B;&#xFF0C;&#x4F46;&#x5982;&#x679C;&#x521D;&#x59CB;&#x53C2;&#x6570;&#x6216;&#x8005;&#x4F20;&#x5165;&#x7684;&#x53D8;&#x91CF;&#x4E0D;&#x540C;&#xFF0C;&#x4E24;&#x4E2A;&#x8FDB;&#x7A0B;&#x4E5F;&#x53EF;&#x4EE5;&#x505A;&#x4E0D;&#x540C;&#x7684;&#x4E8B;&#x3002;  &#x2002;&#x2002;&#x2002;&#x2002;&#x4E00;&#x4E2A;&#x8FDB;&#x7A0B;&#x8C03;&#x7528;fork&#xFF08;&#xFF09;&#x51FD;&#x6570;&#x540E;&#xFF0C;&#x7CFB;&#x7EDF;&#x5148;&#x7ED9;&#x65B0;&#x7684;&#x8FDB;&#x7A0B;&#x5206;&#x914D;&#x8D44;&#x6E90;&#xFF0C;&#x4F8B;&#x5982;&#x5B58;&#x50A8;&#x6570;&#x636E;&#x548C;&#x4EE3;&#x7801;&#x7684;&#x7A7A;&#x95F4;&#x3002;&#x7136;&#x540E;&#x628A;&#x539F;&#x6765;&#x7684;&#x8FDB;&#x7A0B;&#x7684;&#x6240;&#x6709;&#x503C;&#x90FD;&#x590D;&#x5236;&#x5230;&#x65B0;&#x7684;&#x65B0;&#x8FDB;&#x7A0B;&#x4E2D;&#xFF0C;&#x53EA;&#x6709;&#x5C11;&#x6570;&#x503C;&#x4E0E;&#x539F;&#x6765;&#x7684;&#x8FDB;&#x7A0B;&#x7684;&#x503C;&#x4E0D;&#x540C;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E;&#x514B;&#x9686;&#x4E86;&#x4E00;&#x4E2A;&#x81EA;&#x5DF1;&#x3002;  &#x2002;&#x2002;&#x2002;&#x2002;&#x4E00;&#x4E2A;&#x73B0;&#x6709;&#x8FDB;&#x7A0B;&#x53EF;&#x4EE5;&#x8C03;&#x7528;fork&#x51FD;&#x6570;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x8FDB;&#x7A0B;&#x3002;&#x7531;fork&#x521B;&#x5EFA;&#x7684;&#x65B0;&#x8FDB;&#x7A0B;&#x88AB;&#x79F0;&#x4E3A;&#x5B50;&#x8FDB;&#x7A0B;&#xFF08;child process&#xFF09;&#x3002;fork&#x51FD;&#x6570;&#x88AB;&#x8C03;&#x7528;&#x4E00;&#x6B21;&#x4F46;&#x8FD4;&#x56DE;&#x4E24;&#x6B21;&#x3002;  </p>
-<h2 id="2&#x3001;&#x4E3A;&#x4EC0;&#x4E48;fork&#x4F1A;&#x8FD4;&#x56DE;&#x4E24;&#x6B21;&#xFF1F;">2&#x3001;&#x4E3A;&#x4EC0;&#x4E48;fork&#x4F1A;&#x8FD4;&#x56DE;&#x4E24;&#x6B21;&#xFF1F;</h2>
-<p>  &#x5728;&#x590D;&#x5236;&#x65F6;&#x590D;&#x5236;&#x4E86;&#x7236;&#x8FDB;&#x7A0B;&#x7684;&#x5806;&#x6808;&#x6BB5;&#xFF0C;&#x6240;&#x4EE5;&#x4E24;&#x4E2A;&#x8FDB;&#x7A0B;&#x90FD;&#x505C;&#x7559;&#x5728;fork&#x51FD;&#x6570;&#x4E2D;&#xFF0C;&#x7B49;&#x5F85;&#x8FD4;&#x56DE;&#x3002;&#x56E0;&#x6B64;fork&#x51FD;&#x6570;&#x4F1A;&#x8FD4;&#x56DE;&#x4E24;&#x6B21;&#xFF0C;&#x4E00;&#x6B21;&#x662F;&#x5728;&#x7236;&#x8FDB;&#x7A0B;&#x4E2D;&#x8FD4;&#x56DE;&#xFF0C;&#x53E6;&#x4E00;&#x6B21;&#x662F;&#x5728;&#x5B50;&#x8FDB;&#x7A0B;&#x4E2D;&#x8FD4;&#x56DE;&#xFF0C;&#x8FD9;&#x4E24;&#x6B21;&#x7684;&#x8FD4;&#x56DE;&#x503C;&#x662F;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x3002;  </p>
-<p><strong>&#x4EE3;&#x7801;&#x793A;&#x4F8B;:</strong></p>
-<pre><code class="lang-c"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span><span class="hljs-meta-string">&lt;stdio.h&gt;</span></span>
-<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span><span class="hljs-meta-string">&lt;unistd.h&gt;</span></span>
-<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>{
-    <span class="hljs-keyword">int</span> pid;
-    pid=fork();
-    <span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>;
-    <span class="hljs-keyword">for</span>(i=<span class="hljs-number">0</span>;i&lt;<span class="hljs-number">2</span>;i++){
-        <span class="hljs-keyword">if</span>(pid==<span class="hljs-number">0</span>){
-            <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;I am old son, my pid is %d\n&quot;</span>,getpid());
-        }<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(pid&gt;<span class="hljs-number">0</span>){
-            <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;I am father, my pid is %d\n&quot;</span>,getpid());
-            pid=fork();
-            <span class="hljs-keyword">if</span>(pid==<span class="hljs-number">0</span>){
-                <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;I am young girl, my pid is %d\n&quot;</span>,getpid());
-            }<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(pid&gt;<span class="hljs-number">0</span>){
-                <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;I am father, my pid is %d\n&quot;</span>,getpid());
-            }<span class="hljs-keyword">else</span>{
-                <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;fork() error.\n&quot;</span>);}}
-        <span class="hljs-keyword">else</span>{
-            <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;fork() error.\n&quot;</span>);}}
-    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;}
-</code></pre>
-<pre><code>&#x8FD0;&#x884C;&#x7ED3;&#x679C;&#xFF1A;
-linux@linux:~/Desktop$ gcc test.c 
-linux@linux:~/Desktop$ ./a.out 
-I am father, my pid is 3849
-I am father, my pid is 3849
-I am father, my pid is 3849
-I am father, my pid is 3849
-I am young girl, my pid is 3852
-I am young girl, my pid is 3851
-I am old son, my pid is 3851
-I am old son, my pid is 3850
-I am old son, my pid is 3850
-</code></pre><p><strong>&#x5B9E;&#x4F8B;&#x603B;&#x7ED3;&#xFF1A;</strong></p>
-<p>  &#x4ECE;&#x8FDB;&#x7A0B;&#x5E76;&#x53D1;&#x6267;&#x884C;&#x6765;&#x770B;&#xFF0C;&#x4E0A;&#x9762;&#x7684;&#x4E09;&#x4E2A;&#x8FDB;&#x7A0B;&#x6CA1;&#x6709;&#x540C;&#x6B65;&#x63AA;&#x65BD;&#xFF0C;&#x53EA;&#x8981;&#x8FDB;&#x7A0B;&#x5C31;&#x7EEA;&#x5C31;&#x53EF;&#x80FD;&#x6267;&#x884C;&#xFF0C;&#x56E0;&#x6B64;&#x5404;&#x79CD;&#x6267;&#x884C;&#x987A;&#x5E8F;&#x90FD;&#x6709;&#x53EF;&#x80FD;&#xFF0C;&#x6240;&#x4EE5;&#x4E09;&#x4E2A;&#x8FDB;&#x7A0B;&#x7684;&#x8F93;&#x51FA;&#x6B21;&#x5E8F;&#x5E26;&#x6709;&#x968F;&#x673A;&#x6027;&#x3002;&#x5E76;&#x4E14;&#xFF0C;&#x6BCF;&#x5F53;&#x4E00;&#x4E2A;&#x8FDB;&#x7A0B;&#x6267;&#x884C;&#x4E86;&#x4E00;&#x6BB5;&#x65F6;&#x95F4;&#xFF0C;&#x5176;&#x5B83;&#x5C31;&#x7EEA;&#x8FDB;&#x7A0B;&#x53EF;&#x80FD;&#x62A2;&#x5360;&#x5904;&#x7406;&#x673A;&#xFF0C;&#x56E0;&#x6B64;&#xFF0C;&#x591A;&#x4E2A;&#x8FDB;&#x7A0B;&#x53EF;&#x80FD;&#x4EA4;&#x9519;&#x6267;&#x884C;&#x3002;&#x4E0D;&#x8FC7;&#xFF0C;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x5B9E;&#x73B0;&#x51FD;&#x6570;printf( )&#x65F6;&#xFF0C;&#x4FDD;&#x8BC1;&#x4E86;&#x8FDB;&#x7A0B;&#x6BCF;&#x6B21;&#x8C03;&#x7528;&#x8BE5;&#x51FD;&#x6570;&#x8F93;&#x51FA;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x65F6;&#x4E0D;&#x4F1A;&#x88AB;&#x4E2D;&#x65AD;&#x3002;&#x672C;&#x6B21;&#x5B9E;&#x9A8C;&#x867D;&#x7136;&#x6709;&#x4E9B;&#x96BE;&#x5EA6;&#xFF0C;&#x4F46;&#x5927;&#x5BB6;&#x4E0D;&#x8981;&#x7070;&#x5FC3;&#xFF0C;&#x4ED4;&#x7EC6;&#x60F3;&#x60F3;&#x95EE;&#x9898;&#x8FD8;&#x662F;&#x80FD;&#x591F;&#x5F97;&#x5230;&#x89E3;&#x51B3;&#x7684;&#xFF08;&#x628A;fork()&#x51FD;&#x6570;&#x653E;&#x5165;&#x7236;&#x8FDB;&#x7A0B;&#x5373;&#x53EF;&#x5B9E;&#x73B0;&#xFF09;  &#x3002;</p>
-<h2 id="3&#x3001;&#x8FD0;&#x884C;&#x7A0B;&#x5E8F;&#x7684;&#x7236;&#x8FDB;&#x7A0B;&#x662F;&#x591A;&#x5C11;&#xFF0C;&#x8FDB;&#x7A0B;0&#x53F7;&#x548C;1&#x53F7;&#x7684;&#x4F5C;&#x7528;">3&#x3001;&#x8FD0;&#x884C;&#x7A0B;&#x5E8F;&#x7684;&#x7236;&#x8FDB;&#x7A0B;&#x662F;&#x591A;&#x5C11;&#xFF0C;&#x8FDB;&#x7A0B;0&#x53F7;&#x548C;1&#x53F7;&#x7684;&#x4F5C;&#x7528;</h2>
-<p><strong>&#x89E3;&#x51B3;&#x529E;&#x6CD5;&#xFF1A;</strong></p>
-<p>  &#x53EF;&#x4EE5;&#x7F16;&#x5199;&#x4E00;&#x4E2A;&#x6B7B;&#x5FAA;&#x73AF;&#xFF0C;&#x4F7F;&#x7528;ps &#x2013;ef&#x67E5;&#x770B;&#x5F53;&#x524D;&#x7A0B;&#x5E8F;&#x7684;&#x7236;&#x8FDB;&#x7A0B;&#xFF0C;&#x6700;&#x7EC8;&#x90FD;&#x662F;0&#x53F7;&#x8FDB;&#x7A0B;&#x3002;  &#x8FDB;&#x7A0B;0&#xFF1A;Linux&#x5F15;&#x5BFC;&#x4E2D;&#x521B;&#x5EFA;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x8FDB;&#x7A0B;&#xFF0C;&#x5B8C;&#x6210;&#x52A0;&#x8F7D;&#x7CFB;&#x7EDF;&#x540E;&#xFF0C;&#x6F14;&#x53D8;&#x4E3A;&#x8FDB;&#x7A0B;&#x8C03;&#x5EA6;&#x3001;&#x4EA4;&#x6362;&#x53CA;&#x5B58;&#x50A8;&#x7BA1;&#x7406;&#x8FDB;&#x7A0B;  &#x8FDB;&#x7A0B;1&#xFF1A;init &#x8FDB;&#x7A0B;&#xFF0C;&#x7531;0&#x8FDB;&#x7A0B;&#x521B;&#x5EFA;&#xFF0C;&#x5B8C;&#x6210;&#x7CFB;&#x7EDF;&#x7684;&#x521D;&#x59CB;&#x5316;. &#x662F;&#x7CFB;&#x7EDF;&#x4E2D;&#x6240;&#x6709;&#x5176;&#x5B83;&#x7528;&#x6237;&#x8FDB;&#x7A0B;&#x7684;&#x7956;&#x5148;&#x8FDB;&#x7A0B;  </p>
+                                <h2 id="ubuntu&#x73AF;&#x5883;&#x642D;&#x5EFA;&#xFF08;&#x89C6;&#x9891;&#x7248;&#xFF09;">Ubuntu&#x73AF;&#x5883;&#x642D;&#x5EFA;&#xFF08;&#x89C6;&#x9891;&#x7248;&#xFF09;</h2>
+<p><strong>&#x89E3;&#x51B3;&#x65B9;&#x6848;&#xFF1A;</strong></p>
+<p>&#x67E5;&#x770B;level1day1&#x5BA2;&#x6237;&#x767E;&#x5EA6;&#x4E91;&#x63D0;&#x4F9B;&#x7684;&#x8D44;&#x6599;&#xFF0C;&#x6709;&#x5B89;&#x88C5;&#x6240;&#x9700;&#x7684;&#x6587;&#x4EF6;&#x548C;&#x8BE6;&#x7EC6;&#x7684;&#x5B89;&#x88C5;&#x6559;&#x7A0B;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#x4E00;&#x4E0B;&#x3002;&#x94FE;&#x63A5;&#x5730;&#x5740;&#x5DE6;&#x4E0B;&#x89D2;&#x6709;&#x8BFE;&#x7A0B;&#x8D44;&#x6599;&#x5730;&#x5740;&#xFF1A;<a href="http://www.makeru.com.cn/video/1862.html" target="_blank">http://www.makeru.com.cn/video/1862.html</a></p>
+<p>  <img src="0.2.2_Ubuntu&#x642D;&#x5EFA;&#x6559;&#x7A0B;&#x89C6;&#x9891;&#x7248;.assets/clip_image002.jpg" alt="img"></p>
+<p><img src="0.2.2_Ubuntu&#x642D;&#x5EFA;&#x6559;&#x7A0B;&#x89C6;&#x9891;&#x7248;.assets/clip_image004.jpg" alt="img"></p>
+<p>&#x76F4;&#x63A5;&#x63D0;&#x4F9B;&#x767E;&#x5EA6;&#x4E91;&#x76D8;&#x8FDE;&#x63A5;&#x5730;&#x5740;&#xFF1A;</p>
+<p>&#x5730;&#x5740;&#xFF1A;<a href="https://pan.baidu.com/s/1QHd_uTqGgQMS8f07LN465Q#list/path=/" target="_blank">https://pan.baidu.com/s/1QHd_uTqGgQMS8f07LN465Q#list/path=%2F</a></p>
+<p>&#x5BC6;&#x7801;&#xFF1A;6ejp</p>
+<p><img src="0.2.2_Ubuntu&#x642D;&#x5EFA;&#x6559;&#x7A0B;&#x89C6;&#x9891;&#x7248;.assets/clip_image005.png" alt="img"></p>
 
                                 
                                 </section>
@@ -556,12 +521,12 @@ I am old son, my pid is 3850
 
             
                 
-                <a href="LV3_数据结构.html" class="navigation navigation-prev " aria-label="Previous page: LV3_数据结构">
+                <a href="VMware安装时可能遇到的问题.html" class="navigation navigation-prev " aria-label="Previous page: VMware安装时可能遇到的问题">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="LV6_网络编程.html" class="navigation navigation-next " aria-label="Next page: LV6_网络编程">
+                <a href="Ubuntu搭建教程步骤截图.html" class="navigation navigation-next " aria-label="Next page: Ubuntu搭建教程步骤截图">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -572,7 +537,7 @@ I am old son, my pid is 3850
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"LV4-5_IO进程","level":"1.20","depth":1,"next":{"title":"LV6_网络编程","level":"1.21","depth":1,"path":"LV6_网络编程.md","ref":"LV6_网络编程.md","articles":[]},"previous":{"title":"LV3_数据结构","level":"1.19","depth":1,"path":"LV3_数据结构.md","ref":"LV3_数据结构.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"LV4-5_IO进程.md","mtime":"2020-01-15T08:32:20.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-16T05:49:30.509Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Ubuntu搭建教程视频版","level":"1.5","depth":1,"next":{"title":"Ubuntu搭建教程步骤截图","level":"1.6","depth":1,"path":"Ubuntu搭建教程步骤截图.md","ref":"Ubuntu搭建教程步骤截图.md","articles":[]},"previous":{"title":"VMware安装时可能遇到的问题","level":"1.4","depth":1,"path":"VMware安装时可能遇到的问题.md","ref":"VMware安装时可能遇到的问题.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Ubuntu搭建教程视频版.md","mtime":"2020-01-16T03:23:36.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-16T05:49:30.509Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
