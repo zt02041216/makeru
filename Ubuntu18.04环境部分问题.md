@@ -42,17 +42,6 @@ sudo service network-manager restart
 
 结束。。。。。。
 
-
-
-## 2、Ubuntu18.04更新nfs问题：需要重新设置
-
-```
-sudo vi /etc/default/nfs-kernel-server
-RPCNFSDOPTS="--nfs-version 2,3,4 --debug --syslog"
-```
-
-
-
 ## 3、装完**Ubuntu Server 18.04**在 /mnt/下都没有 hgfs文件夹
 
 ```

@@ -18,6 +18,8 @@
 * [Linux下网络环境搭建](Linux下网络环境搭建.md)
 * [FS4412验机流程](FS4412验机流程.md)
 * [ARM汇编环境搭建](ARM汇编环境搭建.md)
+
+* [Samba服务器搭建](Samba服务器搭建.md)
 * [Samba更换Sourceinsight+共享文件夹教程](Samba更换Sourceinsight+共享文件夹教程.md)
 * [Sourceinsight4的安装使用教程](Sourceinsight4的安装使用教程.md)
 * [LV1_C基础](LV1_C基础.md)
