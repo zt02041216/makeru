@@ -62,3 +62,23 @@ I am old son, my pid is 3850
 
   可以编写一个死循环，使用ps –ef查看当前程序的父进程，最终都是0号进程。  进程0：Linux引导中创建的第一个进程，完成加载系统后，演变为进程调度、交换及存储管理进程  进程1：init 进程，由0进程创建，完成系统的初始化. 是系统中所有其它用户进程的祖先进程  
 
+## 4、 Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarly unavailable)
+
+**问题描述：**
+
+```
+Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarly unavailable)
+Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is an other process using it?
+```
+
+**问题解决：**
+
+```
+1 首先查看是否有apt-get这个程序在运行
+　　ps aux|grep apt-get
+2 如果发现存在这样的程序在运行那么就kill掉，否则执行2.3
+3 直接删除锁文件
+　　sudo rm /var/lib/dpkg/lock-frontend
+　　sudo rm /var/lib/dpkg/lock
+```
+

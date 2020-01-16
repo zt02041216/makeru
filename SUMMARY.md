@@ -5,9 +5,12 @@
 * [Vmware安装及Ubuntu环境搭建](Vmware安装及Ubuntu环境搭建.md)
 * [Vmware安装教程](Vmware安装教程.md)
 * [Vmware安装时可能遇到的问题](Vmware安装时可能遇到的问题.md)
+
+* [Ubuntu懒汉版打开步骤](Ubuntu懒汉版打开步骤.md)
+* [Ubuntu搭建iso教程步骤截图](Ubuntu搭建iso教程步骤截图.md)
 * [Ubuntu搭建教程视频版](Ubuntu搭建教程视频版.md)
-* [Ubuntu搭建教程步骤截图](Ubuntu搭建教程步骤截图.md)
-* [Ubuntu18.04网络图标不见的问题解决方案](Ubuntu18.04网络图标不见的问题解决方案.md)
+* [Ubuntu18.04环境部分问题](Ubuntu18.04环境部分问题.md)
+
 * [vim及Vm-tools配置](vim及Vm-tools配置.md)
 * [Linux基本指令](Linux基本指令.md)
 * [Ubuntu下共享文件夹创建](Ubuntu下共享文件夹创建.md)
